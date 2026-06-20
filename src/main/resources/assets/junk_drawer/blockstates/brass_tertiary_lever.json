@@ -1,0 +1,199 @@
+{
+  "variants": {
+    "face=wall,facing=north,power=0": {
+      "model": "junk_drawer:block/brass_tertiary_lever_0",
+      "x": 90,
+      "uvlock": false
+    },
+    "face=wall,facing=north,power=1": {
+      "model": "junk_drawer:block/brass_tertiary_lever_1",
+      "x": 90,
+      "uvlock": false
+    },
+    "face=wall,facing=north,power=2": {
+      "model": "junk_drawer:block/brass_tertiary_lever_2",
+      "x": 90,
+      "uvlock": false
+    },
+    "face=wall,facing=south,power=0": {
+      "model": "junk_drawer:block/brass_tertiary_lever_0",
+      "x": 90,
+      "y": 180,
+      "uvlock": false
+    },
+    "face=wall,facing=south,power=1": {
+      "model": "junk_drawer:block/brass_tertiary_lever_1",
+      "x": 90,
+      "y": 180,
+      "uvlock": false
+    },
+    "face=wall,facing=south,power=2": {
+      "model": "junk_drawer:block/brass_tertiary_lever_2",
+      "x": 90,
+      "y": 180,
+      "uvlock": false
+    },
+    "face=wall,facing=east,power=0": {
+      "model": "junk_drawer:block/brass_tertiary_lever_0",
+      "x": 90,
+      "y": 90,
+      "uvlock": false
+    },
+    "face=wall,facing=east,power=1": {
+      "model": "junk_drawer:block/brass_tertiary_lever_1",
+      "x": 90,
+      "y": 90,
+      "uvlock": false
+    },
+    "face=wall,facing=east,power=2": {
+      "model": "junk_drawer:block/brass_tertiary_lever_2",
+      "x": 90,
+      "y": 90,
+      "uvlock": false
+    },
+    "face=wall,facing=west,power=0": {
+      "model": "junk_drawer:block/brass_tertiary_lever_0",
+      "x": 90,
+      "y": 270,
+      "uvlock": false
+    },
+    "face=wall,facing=west,power=1": {
+      "model": "junk_drawer:block/brass_tertiary_lever_1",
+      "x": 90,
+      "y": 270,
+      "uvlock": false
+    },
+    "face=wall,facing=west,power=2": {
+      "model": "junk_drawer:block/brass_tertiary_lever_2",
+      "x": 90,
+      "y": 270,
+      "uvlock": false
+    },
+    "face=floor,facing=north,power=0": {
+      "model": "junk_drawer:block/brass_tertiary_lever_0",
+      "uvlock": false
+    },
+    "face=floor,facing=north,power=1": {
+      "model": "junk_drawer:block/brass_tertiary_lever_1",
+      "uvlock": false
+    },
+    "face=floor,facing=north,power=2": {
+      "model": "junk_drawer:block/brass_tertiary_lever_2",
+      "uvlock": false
+    },
+    "face=floor,facing=south,power=0": {
+      "model": "junk_drawer:block/brass_tertiary_lever_0",
+      "y": 180,
+      "uvlock": false
+    },
+    "face=floor,facing=south,power=1": {
+      "model": "junk_drawer:block/brass_tertiary_lever_1",
+      "y": 180,
+      "uvlock": false
+    },
+    "face=floor,facing=south,power=2": {
+      "model": "junk_drawer:block/brass_tertiary_lever_2",
+      "y": 180,
+      "uvlock": false
+    },
+    "face=floor,facing=east,power=0": {
+      "model": "junk_drawer:block/brass_tertiary_lever_0",
+      "y": 90,
+      "uvlock": false
+    },
+    "face=floor,facing=east,power=1": {
+      "model": "junk_drawer:block/brass_tertiary_lever_1",
+      "y": 90,
+      "uvlock": false
+    },
+    "face=floor,facing=east,power=2": {
+      "model": "junk_drawer:block/brass_tertiary_lever_2",
+      "y": 90,
+      "uvlock": false
+    },
+    "face=floor,facing=west,power=0": {
+      "model": "junk_drawer:block/brass_tertiary_lever_0",
+      "y": 270,
+      "uvlock": false
+    },
+    "face=floor,facing=west,power=1": {
+      "model": "junk_drawer:block/brass_tertiary_lever_1",
+      "y": 270,
+      "uvlock": false
+    },
+    "face=floor,facing=west,power=2": {
+      "model": "junk_drawer:block/brass_tertiary_lever_2",
+      "y": 270,
+      "uvlock": false
+    },
+    "face=ceiling,facing=north,power=0": {
+      "model": "junk_drawer:block/brass_tertiary_lever_0",
+      "x": 180,
+      "y": 180,
+      "uvlock": false
+    },
+    "face=ceiling,facing=north,power=1": {
+      "model": "junk_drawer:block/brass_tertiary_lever_1",
+      "x": 180,
+      "y": 180,
+      "uvlock": false
+    },
+    "face=ceiling,facing=north,power=2": {
+      "model": "junk_drawer:block/brass_tertiary_lever_2",
+      "x": 180,
+      "y": 180,
+      "uvlock": false
+    },
+    "face=ceiling,facing=south,power=0": {
+      "model": "junk_drawer:block/brass_tertiary_lever_0",
+      "x": 180,
+      "uvlock": false
+    },
+    "face=ceiling,facing=south,power=1": {
+      "model": "junk_drawer:block/brass_tertiary_lever_1",
+      "x": 180,
+      "uvlock": false
+    },
+    "face=ceiling,facing=south,power=2": {
+      "model": "junk_drawer:block/brass_tertiary_lever_2",
+      "x": 180,
+      "uvlock": false
+    },
+    "face=ceiling,facing=east,power=0": {
+      "model": "junk_drawer:block/brass_tertiary_lever_0",
+      "x": 180,
+      "y": 270,
+      "uvlock": false
+    },
+    "face=ceiling,facing=east,power=1": {
+      "model": "junk_drawer:block/brass_tertiary_lever_1",
+      "x": 180,
+      "y": 270,
+      "uvlock": false
+    },
+    "face=ceiling,facing=east,power=2": {
+      "model": "junk_drawer:block/brass_tertiary_lever_2",
+      "x": 180,
+      "y": 270,
+      "uvlock": false
+    },
+    "face=ceiling,facing=west,power=0": {
+      "model": "junk_drawer:block/brass_tertiary_lever_0",
+      "x": 180,
+      "y": 90,
+      "uvlock": false
+    },
+    "face=ceiling,facing=west,power=1": {
+      "model": "junk_drawer:block/brass_tertiary_lever_1",
+      "x": 180,
+      "y": 90,
+      "uvlock": false
+    },
+    "face=ceiling,facing=west,power=2": {
+      "model": "junk_drawer:block/brass_tertiary_lever_2",
+      "x": 180,
+      "y": 90,
+      "uvlock": false
+    }
+  }
+}

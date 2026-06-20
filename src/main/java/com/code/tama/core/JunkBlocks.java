@@ -14,6 +14,7 @@ import static com.simibubi.create.foundation.data.TagGen.tagBlockAndItem;
 import com.code.tama.JunkDrawer;
 import com.code.tama.core.blocks.TertiaryLeverBlock;
 import com.code.tama.core.registries.JunkRegistrate;
+import com.simibubi.create.AllBlocks;
 import com.simibubi.create.AllTags.AllBlockTags;
 import com.simibubi.create.AllTags.AllItemTags;
 import com.simibubi.create.Create;
@@ -77,6 +78,21 @@ public class JunkBlocks {
 					.define('R', Items.REDSTONE)
 					.define('S', Items.STICK)
 					.define('C', Items.COBBLESTONE)
+					.pattern(" S ")
+					.pattern("RCR")
+					.unlockedBy("has_redstone", RegistrateRecipeProvider.has(Items.REDSTONE))
+					.save(p, RL(c.getName())))
+			.build()
+			.register();
+
+	public static final BlockEntry<TertiaryLeverBlock> BRASS_TERTIARY_LEVER = REGISTRATE.block("brass_tertiary_lever", TertiaryLeverBlock::new)
+			.defaultLoot()
+			.initialProperties(() -> Blocks.LEVER)
+			.defaultBlockstate()
+			.item().recipe((c, p) -> ShapedRecipeBuilder.shaped(RecipeCategory.MISC, c.get())
+					.define('R', Items.REDSTONE)
+					.define('S', Items.STICK)
+					.define('C', AllBlocks.BRASS_CASING)
 					.pattern(" S ")
 					.pattern("RCR")
 					.unlockedBy("has_redstone", RegistrateRecipeProvider.has(Items.REDSTONE))

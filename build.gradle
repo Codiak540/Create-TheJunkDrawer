@@ -35,6 +35,10 @@ neoForge {
         minecraftVersion = project.parchment_minecraft_version
     }
 
+    tasks.withType(ProcessResources).configureEach {
+        duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    }
+
     // This line is optional. Access Transformers are automatically detected
     // accessTransformers.add('src/main/resources/META-INF/accesstransformer.cfg')
 

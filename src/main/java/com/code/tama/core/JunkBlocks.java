@@ -1,5 +1,6 @@
 package com.code.tama.core;
 
+import static com.code.tama.JunkDrawer.RL;
 import static com.simibubi.create.api.behaviour.display.DisplaySource.displaySource;
 import static com.simibubi.create.api.behaviour.movement.MovementBehaviour.movementBehaviour;
 import static com.simibubi.create.api.contraption.storage.fluid.MountedFluidStorageType.mountedFluidStorage;
@@ -71,16 +72,16 @@ public class JunkBlocks {
 	public static final BlockEntry<TertiaryLeverBlock> TERTIARY_LEVER = REGISTRATE.block("tertiary_lever", TertiaryLeverBlock::new)
 			.defaultLoot()
 			.initialProperties(() -> Blocks.LEVER)
-			.simpleItem()
 			.defaultBlockstate()
-			.recipe((c, p) -> ShapedRecipeBuilder.shaped(RecipeCategory.MISC, c.get())
+			.item().recipe((c, p) -> ShapedRecipeBuilder.shaped(RecipeCategory.MISC, c.get())
 					.define('R', Items.REDSTONE)
 					.define('S', Items.STICK)
 					.define('C', Items.COBBLESTONE)
 					.pattern(" S ")
 					.pattern("RCR")
 					.unlockedBy("has_redstone", RegistrateRecipeProvider.has(Items.REDSTONE))
-					.save(p, Create.asResource("crafting/kinetics/" + c.getName() + "_from_other_valve_handle")))
+					.save(p, RL(c.getName())))
+			.build()
 			.register();
 
 
